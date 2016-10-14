@@ -1,0 +1,7 @@
+DiamondDrop.wav:
+        By acclivity (http://www.freesound.org/usersViewSingle.php?id=37876)
+            Triangle1.wav (http://www.freesound.org/samplesViewSingle.php?id=31189)
+
+Swap.wav:
+        By Benboncan (http://www.freesound.org/usersViewSingle.php?id=634166)
+            whoosh.wav (http://www.freesound.org/samplesViewSingle.php?id=62260)

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryboardAnimation", "StoryboardAnimation.csproj", "{00F9FB26-CD0F-486E-AE1A-61B2A3FCFFB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLGameFramework", "..\SLGameFramework\SLGameFramework.csproj", "{ECF3E7D8-E54B-4CE3-9CE9-2ABB51B9CDBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00F9FB26-CD0F-486E-AE1A-61B2A3FCFFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F9FB26-CD0F-486E-AE1A-61B2A3FCFFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F9FB26-CD0F-486E-AE1A-61B2A3FCFFB0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{00F9FB26-CD0F-486E-AE1A-61B2A3FCFFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F9FB26-CD0F-486E-AE1A-61B2A3FCFFB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F9FB26-CD0F-486E-AE1A-61B2A3FCFFB0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{ECF3E7D8-E54B-4CE3-9CE9-2ABB51B9CDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF3E7D8-E54B-4CE3-9CE9-2ABB51B9CDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF3E7D8-E54B-4CE3-9CE9-2ABB51B9CDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF3E7D8-E54B-4CE3-9CE9-2ABB51B9CDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

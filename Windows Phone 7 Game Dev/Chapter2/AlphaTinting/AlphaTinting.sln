@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaTinting", "AlphaTinting\AlphaTinting\AlphaTinting.csproj", "{D48151C4-DB01-429D-9323-DC0C4012F570}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "AlphaTintingContent", "AlphaTinting\AlphaTintingContent\AlphaTintingContent.contentproj", "{285C74A9-079C-4AFF-8FCD-8AFBD29026DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Any CPU = Release|Any CPU
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D48151C4-DB01-429D-9323-DC0C4012F570}.Debug|Any CPU.ActiveCfg = Debug|Windows Phone
+		{D48151C4-DB01-429D-9323-DC0C4012F570}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{D48151C4-DB01-429D-9323-DC0C4012F570}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{D48151C4-DB01-429D-9323-DC0C4012F570}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{D48151C4-DB01-429D-9323-DC0C4012F570}.Release|Any CPU.ActiveCfg = Release|Windows Phone
+		{D48151C4-DB01-429D-9323-DC0C4012F570}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{D48151C4-DB01-429D-9323-DC0C4012F570}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{D48151C4-DB01-429D-9323-DC0C4012F570}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+		{285C74A9-079C-4AFF-8FCD-8AFBD29026DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285C74A9-079C-4AFF-8FCD-8AFBD29026DF}.Debug|Windows Phone.ActiveCfg = Debug|Any CPU
+		{285C74A9-079C-4AFF-8FCD-8AFBD29026DF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{285C74A9-079C-4AFF-8FCD-8AFBD29026DF}.Release|Windows Phone.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

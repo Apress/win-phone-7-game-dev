@@ -1,0 +1,30 @@
+SpaceshipExplosion.wav:
+	Title: Barrel Exploding
+	About: An exploding barrel sound effect great for a war or battle scene. everyone needs an exploding barrel sound now and then right? :)
+	Uploaded: 06.15.09
+	License: Attribution 3.0
+	Recorded by BlastwaveFx.com
+	File Size: 1.14 MB
+	URL: http://soundbible.com/576-Barrel-Exploding.html
+
+RockExplosion:
+	By pauliep83 (http://www.freesound.org/usersViewSingle.php?id=279761)
+	explosions.aif (http://www.freesound.org/samplesViewSingle.php?id=33677)
+
+Thruster:
+	Title: Rain
+	About: Great rain or raining sound effect. medium size rainstorm sound effect, with small rumbling thunder in distance.
+	Uploaded: 11.05.09
+	License: Attribution 3.0
+	Recorded by Mike Koenig
+	File Size: 2.79 MB
+	URL: http://soundbible.com/1158-Rain.html
+
+Bullet.wav:
+	By THE_bizniss (http://www.freesound.org/usersViewSingle.php?id=382028)
+	slinky.wav (http://www.freesound.org/samplesViewSingle.php?id=38401)
+
+HyperspaceOut/HyperspaceIn:
+	By Sergenious (http://www.freesound.org/usersViewSingle.php?id=644651)
+	laser2.wav (http://www.freesound.org/samplesViewSingle.php?id=55836)
+

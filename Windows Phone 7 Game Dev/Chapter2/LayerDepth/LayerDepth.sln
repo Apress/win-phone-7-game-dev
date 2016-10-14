@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayerDepth", "LayerDepth\LayerDepth\LayerDepth.csproj", "{BE7EF4A6-1F4D-4DF9-AC06-B81E38AA94D1}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "LayerDepthContent", "LayerDepth\LayerDepthContent\LayerDepthContent.contentproj", "{17667A76-D200-4BC7-8D33-48AE0AB05960}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Any CPU = Release|Any CPU
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE7EF4A6-1F4D-4DF9-AC06-B81E38AA94D1}.Debug|Any CPU.ActiveCfg = Debug|Windows Phone
+		{BE7EF4A6-1F4D-4DF9-AC06-B81E38AA94D1}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{BE7EF4A6-1F4D-4DF9-AC06-B81E38AA94D1}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{BE7EF4A6-1F4D-4DF9-AC06-B81E38AA94D1}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{BE7EF4A6-1F4D-4DF9-AC06-B81E38AA94D1}.Release|Any CPU.ActiveCfg = Release|Windows Phone
+		{BE7EF4A6-1F4D-4DF9-AC06-B81E38AA94D1}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{BE7EF4A6-1F4D-4DF9-AC06-B81E38AA94D1}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{BE7EF4A6-1F4D-4DF9-AC06-B81E38AA94D1}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+		{17667A76-D200-4BC7-8D33-48AE0AB05960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17667A76-D200-4BC7-8D33-48AE0AB05960}.Debug|Windows Phone.ActiveCfg = Debug|Any CPU
+		{17667A76-D200-4BC7-8D33-48AE0AB05960}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{17667A76-D200-4BC7-8D33-48AE0AB05960}.Release|Windows Phone.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

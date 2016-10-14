@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="SLGameFramework.Sprite"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="100" d:DesignWidth="100">
+
+    <UserControl.Resources>
+        <!-- A storyboard to handle translation of the sprite -->
+        <Storyboard x:Name="SBTranslate">
+            <DoubleAnimation x:Name="SBTranslateAnimX"
+                Storyboard.TargetName="SpriteTransform"
+                Storyboard.TargetProperty="TranslateX">
+            </DoubleAnimation>
+            <DoubleAnimation x:Name="SBTranslateAnimY"
+                Storyboard.TargetName="SpriteTransform"
+                Storyboard.TargetProperty="TranslateY">
+            </DoubleAnimation>
+        </Storyboard>
+        <!-- A storyboard to handle scaling of the sprite -->
+        <Storyboard x:Name="SBScale">
+            <DoubleAnimation x:Name="SBScaleAnimX"
+                Storyboard.TargetName="SpriteTransform"
+                Storyboard.TargetProperty="ScaleX">
+            </DoubleAnimation>
+            <DoubleAnimation x:Name="SBScaleAnimY"
+                Storyboard.TargetName="SpriteTransform"
+                Storyboard.TargetProperty="ScaleY">
+            </DoubleAnimation>
+        </Storyboard>
+        <!-- A storyboard to handle rotation of the sprite -->
+        <Storyboard x:Name="SBRotate">
+            <DoubleAnimation x:Name="SBRotateAnim"
+                Storyboard.TargetName="SpriteTransform"
+                Storyboard.TargetProperty="Rotation">
+            </DoubleAnimation>
+        </Storyboard>
+    </UserControl.Resources>
+
+    <!-- The Canvas inside which the sprite's image is contained -->
+    <Canvas x:Name="spriteCanvas" SizeChanged="spriteCanvas_SizeChanged">
+        <!-- The canvas is clipped to prevent the image showing outside its area -->
+        <Canvas.Clip>
+            <RectangleGeometry x:Name="canvasRect"/>
+        </Canvas.Clip>
+        <!-- A CompositeTransform to allow the sprite to be translated, rotated and scaled -->
+        <Canvas.RenderTransform>
+            <CompositeTransform x:Name="SpriteTransform"/>
+        </Canvas.RenderTransform>
+        <!-- The image to display within the sprite -->
+        <Image Name="spriteImage" Height="Auto" Stretch="Fill" Width="Auto" />
+    </Canvas>
+</UserControl>

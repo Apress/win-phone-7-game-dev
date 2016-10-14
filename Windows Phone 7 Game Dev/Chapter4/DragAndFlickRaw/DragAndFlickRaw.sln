@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragAndFlickRaw", "DragAndFlickRaw\DragAndFlickRaw.csproj", "{E7750D28-6237-4F27-AB35-7DCC16FB0F4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragAndFlickRawContent", "DragAndFlickRawContent\DragAndFlickRawContent.contentproj", "{FFBB7A2E-9B19-4A85-B8AC-C822F38ED7D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameFramework", "..\GameFramework\GameFramework.csproj", "{513E15DE-D01C-460E-8235-9C5ED576AED5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Any CPU = Release|Any CPU
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7750D28-6237-4F27-AB35-7DCC16FB0F4A}.Debug|Any CPU.ActiveCfg = Debug|Windows Phone
+		{E7750D28-6237-4F27-AB35-7DCC16FB0F4A}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{E7750D28-6237-4F27-AB35-7DCC16FB0F4A}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{E7750D28-6237-4F27-AB35-7DCC16FB0F4A}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{E7750D28-6237-4F27-AB35-7DCC16FB0F4A}.Release|Any CPU.ActiveCfg = Release|Windows Phone
+		{E7750D28-6237-4F27-AB35-7DCC16FB0F4A}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{E7750D28-6237-4F27-AB35-7DCC16FB0F4A}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{E7750D28-6237-4F27-AB35-7DCC16FB0F4A}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+		{FFBB7A2E-9B19-4A85-B8AC-C822F38ED7D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBB7A2E-9B19-4A85-B8AC-C822F38ED7D7}.Debug|Windows Phone.ActiveCfg = Debug|Any CPU
+		{FFBB7A2E-9B19-4A85-B8AC-C822F38ED7D7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBB7A2E-9B19-4A85-B8AC-C822F38ED7D7}.Release|Windows Phone.ActiveCfg = Debug|Any CPU
+		{513E15DE-D01C-460E-8235-9C5ED576AED5}.Debug|Any CPU.ActiveCfg = Debug|Windows Phone
+		{513E15DE-D01C-460E-8235-9C5ED576AED5}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{513E15DE-D01C-460E-8235-9C5ED576AED5}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{513E15DE-D01C-460E-8235-9C5ED576AED5}.Release|Any CPU.ActiveCfg = Release|Windows Phone
+		{513E15DE-D01C-460E-8235-9C5ED576AED5}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{513E15DE-D01C-460E-8235-9C5ED576AED5}.Release|Windows Phone.Build.0 = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

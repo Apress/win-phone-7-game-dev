@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondLines", "DiamondLines.csproj", "{DD095443-C44C-4333-8D36-40641B6EC899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondLines.Web", "..\DiamondLines.Web\DiamondLines.Web.csproj", "{E91113DC-508B-4AA5-AAC8-4CA94AD75469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLGameFramework", "..\SLGameFramework\SLGameFramework.csproj", "{77B811DC-2B79-4ED7-8752-02E9A61CA348}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD095443-C44C-4333-8D36-40641B6EC899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD095443-C44C-4333-8D36-40641B6EC899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD095443-C44C-4333-8D36-40641B6EC899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD095443-C44C-4333-8D36-40641B6EC899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E91113DC-508B-4AA5-AAC8-4CA94AD75469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E91113DC-508B-4AA5-AAC8-4CA94AD75469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E91113DC-508B-4AA5-AAC8-4CA94AD75469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91113DC-508B-4AA5-AAC8-4CA94AD75469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B811DC-2B79-4ED7-8752-02E9A61CA348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B811DC-2B79-4ED7-8752-02E9A61CA348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B811DC-2B79-4ED7-8752-02E9A61CA348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B811DC-2B79-4ED7-8752-02E9A61CA348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

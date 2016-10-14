@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navigation", "Navigation.csproj", "{4BF54B4A-0CE9-4CB4-907A-260BA63AAF4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navigation.Web", "..\Navigation.Web\Navigation.Web.csproj", "{2B045CAB-48BC-4F0E-B6BC-6D6746010D92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLGameFramework", "..\SLGameFramework\SLGameFramework.csproj", "{77B811DC-2B79-4ED7-8752-02E9A61CA348}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BF54B4A-0CE9-4CB4-907A-260BA63AAF4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF54B4A-0CE9-4CB4-907A-260BA63AAF4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF54B4A-0CE9-4CB4-907A-260BA63AAF4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF54B4A-0CE9-4CB4-907A-260BA63AAF4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B045CAB-48BC-4F0E-B6BC-6D6746010D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B045CAB-48BC-4F0E-B6BC-6D6746010D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B045CAB-48BC-4F0E-B6BC-6D6746010D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B045CAB-48BC-4F0E-B6BC-6D6746010D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B811DC-2B79-4ED7-8752-02E9A61CA348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B811DC-2B79-4ED7-8752-02E9A61CA348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B811DC-2B79-4ED7-8752-02E9A61CA348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B811DC-2B79-4ED7-8752-02E9A61CA348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

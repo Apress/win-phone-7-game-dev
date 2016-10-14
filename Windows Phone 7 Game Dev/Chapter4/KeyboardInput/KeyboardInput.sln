@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardInput", "KeyboardInput\KeyboardInput.csproj", "{530B92A6-BFB2-4EB0-BB11-BA1B2D73E1D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardInputContent", "KeyboardInputContent\KeyboardInputContent.contentproj", "{0F6E6387-BACC-45EE-B685-B129FA751DF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameFramework", "..\GameFramework\GameFramework.csproj", "{513E15DE-D01C-460E-8235-9C5ED576AED5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Any CPU = Release|Any CPU
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{530B92A6-BFB2-4EB0-BB11-BA1B2D73E1D9}.Debug|Any CPU.ActiveCfg = Debug|Windows Phone
+		{530B92A6-BFB2-4EB0-BB11-BA1B2D73E1D9}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{530B92A6-BFB2-4EB0-BB11-BA1B2D73E1D9}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{530B92A6-BFB2-4EB0-BB11-BA1B2D73E1D9}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{530B92A6-BFB2-4EB0-BB11-BA1B2D73E1D9}.Release|Any CPU.ActiveCfg = Release|Windows Phone
+		{530B92A6-BFB2-4EB0-BB11-BA1B2D73E1D9}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{530B92A6-BFB2-4EB0-BB11-BA1B2D73E1D9}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{530B92A6-BFB2-4EB0-BB11-BA1B2D73E1D9}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+		{0F6E6387-BACC-45EE-B685-B129FA751DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6E6387-BACC-45EE-B685-B129FA751DF4}.Debug|Windows Phone.ActiveCfg = Debug|Any CPU
+		{0F6E6387-BACC-45EE-B685-B129FA751DF4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6E6387-BACC-45EE-B685-B129FA751DF4}.Release|Windows Phone.ActiveCfg = Debug|Any CPU
+		{513E15DE-D01C-460E-8235-9C5ED576AED5}.Debug|Any CPU.ActiveCfg = Debug|Windows Phone
+		{513E15DE-D01C-460E-8235-9C5ED576AED5}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{513E15DE-D01C-460E-8235-9C5ED576AED5}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{513E15DE-D01C-460E-8235-9C5ED576AED5}.Release|Any CPU.ActiveCfg = Release|Windows Phone
+		{513E15DE-D01C-460E-8235-9C5ED576AED5}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{513E15DE-D01C-460E-8235-9C5ED576AED5}.Release|Windows Phone.Build.0 = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,57 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Storyboards.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded">
+
+    <phone:PhoneApplicationPage.Resources>
+        <!-- The storyboard that we will use for our example -->        
+        <Storyboard x:Name="TestStoryboard">
+            <DoubleAnimation
+                Storyboard.TargetName="TextblockRotation"
+                Storyboard.TargetProperty="Angle"
+                Duration="0:0:5"
+                From="0"
+                To="360">
+                <!--
+                <DoubleAnimation.EasingFunction>
+                    <ElasticEase EasingMode="EaseOut" />
+                </DoubleAnimation.EasingFunction>
+                -->
+            </DoubleAnimation>
+        </Storyboard>
+    </phone:PhoneApplicationPage.Resources>
+    
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <TextBlock Height="57" HorizontalAlignment="Left" Margin="156,237,0,0" Name="textBlock1" Text="storyboards" VerticalAlignment="Top" Width="209" FontSize="36">
+                <TextBlock.RenderTransform>
+                    <RotateTransform x:Name="TextblockRotation" Angle="0" />
+                </TextBlock.RenderTransform>
+            </TextBlock>
+        </Grid>
+    </Grid>
+ 
+</phone:PhoneApplicationPage>
